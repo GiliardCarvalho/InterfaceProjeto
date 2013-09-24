@@ -76,10 +76,10 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="tfCodigo" alignment="0" min="-2" pref="188" max="-2" attributes="0"/>
                                       <Component id="cbFornecedor" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="tfCategoria" alignment="0" min="-2" pref="316" max="-2" attributes="0"/>
                                       <Component id="jFormattedTextField1" alignment="0" min="-2" pref="127" max="-2" attributes="0"/>
+                                      <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <EmptySpace min="0" pref="128" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -121,7 +121,7 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lbCategoria" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="tfCategoria" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
@@ -201,8 +201,6 @@
             <Property name="text" type="java.lang.String" value="Categoria :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="tfCategoria">
-        </Component>
         <Component class="javax.swing.JLabel" name="lbObs">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -237,6 +235,17 @@
           <Properties>
             <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
               <Format format="&#xa4;#,##0" subtype="-1" type="4"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Categoria 1"/>
+                <StringItem index="1" value="Categoria 2"/>
+                <StringItem index="2" value=" "/>
+              </StringArray>
             </Property>
           </Properties>
         </Component>
