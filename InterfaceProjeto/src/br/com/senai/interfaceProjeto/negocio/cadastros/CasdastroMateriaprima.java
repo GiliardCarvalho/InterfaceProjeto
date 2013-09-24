@@ -79,7 +79,11 @@ public class CasdastroMateriaprima extends javax.swing.JFrame {
 
         btCancelar.setText("Cancelar");
 
-        ftfPreco.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0"))));
+        try {
+            ftfPreco.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("R$ ##.###.00")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
 
         cbCategoria.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Categoria 1", "Categoria 2", " " }));
 
