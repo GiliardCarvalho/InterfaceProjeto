@@ -59,7 +59,7 @@ public class CadastroUsuario extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         lbTitulo.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        lbTitulo.setText("Cadastro do Usuario");
+        lbTitulo.setText("Cadastro do Funcionario");
 
         lbNome.setText("Nome : ");
 
