@@ -41,7 +41,7 @@ public class CasdastroMateriaprima extends javax.swing.JFrame {
         tfObs = new javax.swing.JTextField();
         cbFornecedor = new javax.swing.JComboBox();
         btSalvar = new javax.swing.JToggleButton();
-        btCancela = new javax.swing.JToggleButton();
+        btCancelar = new javax.swing.JToggleButton();
         jFormattedTextField1 = new javax.swing.JFormattedTextField();
         jComboBox1 = new javax.swing.JComboBox();
 
@@ -75,9 +75,9 @@ public class CasdastroMateriaprima extends javax.swing.JFrame {
 
         cbFornecedor.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Fornecedor 1", "Fornecedor 2" }));
 
-        btSalvar.setText("SALVAR");
+        btSalvar.setText("Salvar");
 
-        btCancela.setText("CANCELA");
+        btCancelar.setText("Cancelar");
 
         jFormattedTextField1.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0"))));
 
@@ -97,7 +97,7 @@ public class CasdastroMateriaprima extends javax.swing.JFrame {
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btSalvar)
                         .addGap(18, 18, 18)
-                        .addComponent(btCancela))
+                        .addComponent(btCancelar))
                     .addGroup(jpPrincipalLayout.createSequentialGroup()
                         .addGap(40, 40, 40)
                         .addGroup(jpPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -158,7 +158,7 @@ public class CasdastroMateriaprima extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 55, Short.MAX_VALUE)
                 .addGroup(jpPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btSalvar)
-                    .addComponent(btCancela))
+                    .addComponent(btCancelar))
                 .addGap(28, 28, 28))
         );
 
@@ -211,7 +211,7 @@ public class CasdastroMateriaprima extends javax.swing.JFrame {
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JToggleButton btCancela;
+    private javax.swing.JToggleButton btCancelar;
     private javax.swing.JToggleButton btSalvar;
     private javax.swing.JComboBox cbFornecedor;
     private javax.swing.JComboBox jComboBox1;
