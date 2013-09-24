@@ -5,15 +5,13 @@
 package br.com.senai.interfaceProjeto.principal;
 
 /**
- *
- * @author giliard_j_carvalho
+ * InterfaceProjeto
+ * @version v1.0 Setembro/2013
+ * @author Giliard Carvalho
  */
 public class InterfaceProjeto {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     }
 }
